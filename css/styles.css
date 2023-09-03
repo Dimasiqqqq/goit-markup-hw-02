@@ -9,9 +9,9 @@
 /* global */
 
 body {
-    color: var(--color-dark);
-    font-family: "Roboto"; sans-serif; 
-    background-color: var(--color-adress);
+    color: var(--color-adress);
+    font-family: Roboto; sans-serif; 
+    background-color: var(--color-brand);
     font-size: 16px;
 }
 
@@ -26,12 +26,12 @@ ul {
 /* header */
 
 .logo {
-    color:var(--color-dark);
+    color:var(--color-word-web);
     font-size: 18px;
     font-weight: 700;
-    line-height: 1,16;
-    letter-spacing: -0.03em; 
-    font-family: "Raleway"; 
+    line-height: 1,17;
+    letter-spacing: 0.03em; 
+    font-family: Raleway; sans-serif;
     text-transform: uppercase;
 }
 
@@ -41,7 +41,7 @@ ul {
     font-weight: 700;
     line-height: 1,16;
     letter-spacing: -0.03em; 
-    color:var(--color-word-web)
+    color:var(--color-dark);
 }
 
 .nav-section {
@@ -52,7 +52,7 @@ ul {
     color:var(--color-dark);
     font-weight: 500;
     line-height: 1,5; 
-    letter-spacing: -0,02em;
+    letter-spacing: 0,02em;
     }
 
 .adress-link {
