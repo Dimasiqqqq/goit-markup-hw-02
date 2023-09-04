@@ -77,15 +77,15 @@ ul {
     font-style: normal; 
 }
 
-.adress-link:hover {
-   color: var(--color-span);
-}
-
-.adress-link:active {
+.adress-text:hover {
     color: var(--color-span);
 }
 
-.adress-link:focus {
+.adress-text:active {
+    color: var(--color-span);
+}
+
+.adress-text:focus {
     color: var(--color-span);
 }
 
@@ -213,7 +213,7 @@ letter-spacing: 0.02em;
     background-color: var(--color-dark);
 }
 .logo-end {
-    color: var(--color-word-web)
+    color: var(--color-word-web);
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
