@@ -11,7 +11,7 @@
 
 body {
     color: var(--color-adress);
-    font-family: "Roboto"; sans-serif; 
+    font-family: 'Roboto', sans-serif; 
     background-color: var(--color-brand);
     font-size: 16px;
 }
@@ -32,12 +32,12 @@ ul {
     font-weight: 700;
     line-height: 1.17;
     letter-spacing: 0.03em; 
-    font-family: "Raleway"; sans-serif;
+    font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
 }
 
 .word-web {
-    font-family: "Raleway";
+    font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.16;
@@ -218,7 +218,7 @@ letter-spacing: 0.02em;
     font-weight: 700;
     line-height: 1.17;
     letter-spacing: 0.03em; 
-    font-family: "Raleway"; 
+    font-family: 'Raleway', sans-serif; 
     text-transform: uppercase;
 }
 
@@ -230,7 +230,7 @@ letter-spacing: 0.02em;
 }
 
 .word-web-end {
-    font-family: "Raleway";
+    font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.16;
