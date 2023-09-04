@@ -67,8 +67,6 @@ ul {
 
 .adress-text {
     color: inherit;
-    font-style: normal;
-    font-weight: 400;
     line-height: 1.5;   
     letter-spacing: 0.02em;
 }
@@ -140,8 +138,7 @@ ul {
 
 .advantage-text {
     color: var(--color-adress);
-    font-weight: 400;
-    line-height: 1.5; 
+        line-height: 1.5; 
     letter-spacing: 0.02em;
 }
 
@@ -167,8 +164,7 @@ ul {
 
 .our-team-profession {
     color: var(--color-adress);
-    font-weight: 400;
-    line-height: 1.5; 
+        line-height: 1.5; 
     letter-spacing: 0.02em;
 }
 
@@ -202,8 +198,7 @@ letter-spacing: 0.02em;
 
 .portfolio-examples-p {
     color: var(--color-adress);
-    font-weight: 400;
-line-height: 1.5; /* 150% */
+    line-height: 1.5; /* 150% */
 letter-spacing: 0.02em;
 }
 
@@ -224,8 +219,7 @@ letter-spacing: 0.02em;
 
 .footer-text {
     color: var(--color-background-white);
-    font-weight: 400;
-line-height: 1.5; 
+    line-height: 1.5; 
 letter-spacing: 0.02em;
 }
 
