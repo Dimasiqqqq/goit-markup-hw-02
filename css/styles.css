@@ -213,7 +213,7 @@ letter-spacing: 0.02em;
     background-color: var(--color-dark);
 }
 .logo-end {
-    color: var(--color-background-white);
+    color: var(--color-word-web)
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
@@ -227,5 +227,13 @@ letter-spacing: 0.02em;
     font-weight: 400;
 line-height: 1.5; 
 letter-spacing: 0.02em;
+}
 
+.word-web-end {
+    font-family: "Raleway";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.16;
+    letter-spacing: 0.03em; 
+    color:var(--color-background-white)
 }
