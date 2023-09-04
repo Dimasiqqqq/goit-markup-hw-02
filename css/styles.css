@@ -97,7 +97,6 @@ ul {
 .hero-title {
     color: var(--color-brand);
     font-size: 56px;
-    font-weight: 700;
     line-height: 1.07; 
     letter-spacing: 0.02em;
     }
@@ -147,7 +146,6 @@ ul {
 .our-team-title {
     color: var(--color-dark);
     font-size: 36px;
-    font-weight: 700;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
@@ -181,7 +179,6 @@ ul {
 .portfolio-title {
     color: var(--color-dark);
        font-size: 36px;
-font-weight: 700;
 line-height: 1.11; 
 letter-spacing: 0.02em;
 text-transform: capitalize;
