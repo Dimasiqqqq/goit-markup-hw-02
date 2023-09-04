@@ -30,7 +30,7 @@ ul {
     color:var(--color-word-web);
     font-size: 18px;
     font-weight: 700;
-    line-height: 1,17;
+    line-height: 1.17;
     letter-spacing: 0.03em; 
     font-family: "Raleway"; sans-serif;
     text-transform: uppercase;
@@ -40,16 +40,16 @@ ul {
     font-family: "Raleway";
     font-size: 18px;
     font-weight: 700;
-    line-height: 1,16;
-    letter-spacing: -0.03em; 
+    line-height: 1.16;
+    letter-spacing: 0.03em; 
     color:var(--color-dark);
 }
 
 .nav-link {
     color:var(--color-dark);
     font-weight: 500;
-    line-height: 1,5; 
-    letter-spacing: 0,02em;
+    line-height: 1.5; 
+    letter-spacing: 0.02em;
     }
 
 .nav-link:hover {
@@ -70,7 +70,7 @@ ul {
     font-style: normal;
     font-weight: 400;
     line-height: 1.5;   
-    letter-spacing: 0,02em;
+    letter-spacing: 0.02em;
 }
 
 .adress-link {
@@ -93,6 +93,7 @@ ul {
 
 .hero-section {
     background-color: var(--color-dark);
+    text-align: center
 }    
 
 .hero-title {
@@ -100,8 +101,8 @@ ul {
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07; 
-    letter-spacing: -0.02em;
-}
+    letter-spacing: 0.02em;
+    }
 
 .hero-button {
     background-color: var(--color-word-web);
@@ -110,75 +111,100 @@ ul {
     border: none;
     font-weight: 500;
     line-height: 1.5; 
-    letter-spacing: -0.04em;
+    letter-spacing: 0.04em;
+    font-size: 16px;
+    cursor: pointer 
+}
+
+.hero-button:hover {
+    background-color: var(--color-span);
+}
+
+.hero-button:active {
+    background-color: var(--color-span);
+}
+
+.hero-button:focus {
+    background-color: var(--color-span);
 }
 
 /* advantages-section */
 
 .advantage-title {
+    color: var(--color-dark);
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2; 
-    letter-spacing: -0.02em;
+    letter-spacing: 0.02em;
 }
 
 .advantage-text {
     color: var(--color-adress);
     font-weight: 400;
     line-height: 1.5; 
-    letter-spacing: -0.02em;
+    letter-spacing: 0.02em;
 }
 
 /* our-team */
 
 .our-team-title {
+    color: var(--color-dark);
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
-    letter-spacing: -0.02em;
+    letter-spacing: 0.02em;
     text-transform: capitalize;
+    text-align: center
 }
 
 .our-team-members {
+    color: var(--color-dark);
         font-size: 20px;
     font-weight: 500;
     line-height: 1.2; 
-    letter-spacing: -0.02em;
+    letter-spacing: 0.02em;
 }
 
 .our-team-profession {
     color: var(--color-adress);
     font-weight: 400;
     line-height: 1.5; 
-    letter-spacing: -0.02em;
+    letter-spacing: 0.02em;
 }
 
 .our-team {
     background-color: var(--color-background-white);
 }
 
+.our-team-background {
+    background-color: var(--color-brand);
+}
+
 /* our portfolio */
 
 .portfolio-title {
+    color: var(--color-dark);
        font-size: 36px;
 font-weight: 700;
 line-height: 1.11; 
-letter-spacing: -0.02em;
+letter-spacing: 0.02em;
 text-transform: capitalize;
+text-align: center
 }
 
 .portfolio-examples {
+    color: var(--color-dark);
         font-size: 20px;
 font-weight: 500;
 line-height: 1.2; /* 120% */
-letter-spacing: -0.02em;
+letter-spacing: 0.02em;
 }
 
 .portfolio-examples-p {
     color: var(--color-adress);
     font-weight: 400;
 line-height: 1.5; /* 150% */
-letter-spacing: -0.02em;
+letter-spacing: 0.02em;
 }
 
 /* footer */
@@ -187,11 +213,11 @@ letter-spacing: -0.02em;
     background-color: var(--color-dark);
 }
 .logo-end {
-    color:var(--color-background-white);
+    color:var(--color-word-web)
     font-size: 18px;
     font-weight: 700;
-    line-height: 1,16;
-    letter-spacing: -0.03em; 
+    line-height: 1.17;
+    letter-spacing: 0.03em; 
     font-family: "Raleway"; 
     text-transform: uppercase;
 }
@@ -200,5 +226,5 @@ letter-spacing: -0.02em;
     color: var(--color-background-white);
     font-weight: 400;
 line-height: 1.5; 
-letter-spacing: -0.02em;
+letter-spacing: 0.02em;
 }
